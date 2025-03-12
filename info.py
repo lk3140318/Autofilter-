@@ -51,8 +51,8 @@ SUPPORT_CHAT_ID = -1001792675255
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "PIRO")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://aadarshkumar1234768:Q8ptH5spkMkR93eg@cluster0.0ntbfcn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "aadarshkumar1234768")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'FILES')
 
 # Others
